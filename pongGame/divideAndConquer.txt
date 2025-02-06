@@ -1,0 +1,30 @@
+pong oyunu gelistirmenin adimlari
+
+1.boş bir ekran ve Oyun döngüsü oluşturma
+2.raketleri ve topu çizme
+3.topu etrafta haraket ettirme
+4.kenarlarda çarpışma olup olmadığını kontrol etme
+5.oyuncunun raketini haraket ettirme
+6.CPU paletini yapay zeka ile haraket ettirme
+7.raketlerle çarpışmaları kontrol etme
+8.skor ekleme
+
+
+        GAME STRUCTURE
+-------------------------------------
+        definitions
+defining the variables needed
+creating the game objects
+
+------------------------------------
+        Game Loop
+Updating the positions of the game objects  
+Checking for collisions
+
+------------------------------------
+
+Game Loop
+uc ana bolumden olusur
+1.check for any events , olayları analiz etmemiz lazim neler olucak haraketler vs.oyundan cikmak,raketleri haraket ettirmek,
+2.oyundaki bütün oyun nesnelerimizin poziyonlarını güncellemeliyiz
+3.ve oyundaki nesnelerin yeni poziyosanlarını cizmemiz gerekiyor.
